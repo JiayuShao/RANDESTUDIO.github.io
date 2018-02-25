@@ -252,7 +252,7 @@
                         })(j)}
                         
                         window.alert("upload successfully");
-                        window.close();
+                        //window.close();
                         
                         $.ajax({
                             type: 'POST',

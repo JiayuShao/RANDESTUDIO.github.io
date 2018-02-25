@@ -250,6 +250,10 @@
 
                 //////////////////
                         })(j)}
+                        
+                        window.alert("upload successfully");
+                        window.close();
+                        
                         $.ajax({
                             type: 'POST',
                             url: options.ajaxUrl,
